@@ -7,8 +7,6 @@
 * {
     background-color: #ECEEF1;
     font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    /* width: 100% ; */
-    /* height: 100%; */
 }
 
 .header {
@@ -23,6 +21,7 @@
     }
 
 }
+
 .signIn{
     margin-top: 4px;
     float: right;
@@ -34,7 +33,6 @@
 
 .signIn.text{
     border-style: none; 
-    /* color:black; */
     font-size: 14px;
     padding: 5px 0px 0px 0px;
 }
@@ -44,19 +42,30 @@
     float:right;
     text-align: left;
 }
+
 .container{
     width: 800px;
     align-content: center;
     margin: 0 auto;
     
+    
 }
+
+.title img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    margin: 0 auto;
+}
+
 button {
     background-color: #0279C5;
     color: white;
 }
 
 .terms {
- font-size: 14px
+ font-size: 14px;
 }
 
 .captcha { 
@@ -64,15 +73,17 @@ button {
     font-style: italic;
     color: gray;
 }
+
 .accountInfo{
-    width: 800px;
+    /* width: 800px; */
     height: 600px;
     overflow:auto;
+    background-color: white;
 }
 
 input{
     display: flex;
     overflow-y: scroll;
     padding-bottom: 1rem;
-    align-items: center
+    align-items: center;
 }
