@@ -1,7 +1,8 @@
-/* *:before,
+*,
+*:before,
 *:after {
    box-sizing: border-box;
-} */ 
+}
 
 * {
     background-color: #ECEEF1;
@@ -10,28 +11,44 @@
     /* height: 100%; */
 }
 
-.header img{
-  
-}
-
-.createAccount img{
-    
-}
-
 .header {
-    /* text-align: right; */
-    border: solid 1px red;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 5px;
 }
 
+@media screen and (max-width: 800px) {
+    .header {
+        display: none;
+    }
+
+}
 .signIn{
+    margin-top: 4px;
     float: right;
-    
+    background-color: #0279C5;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
 }
 
+.signIn.text{
+    border-style: none; 
+    /* color:black; */
+    font-size: 14px;
+    padding: 5px 0px 0px 0px;
+}
+
+.headerText {
+    padding: 0px 10px;
+    float:right;
+    text-align: left;
+}
 .container{
     width: 800px;
     align-content: center;
     margin: 0 auto;
+    
 }
 button {
     background-color: #0279C5;
@@ -49,7 +66,8 @@ button {
 }
 .accountInfo{
     width: 800px;
-    height: 500px;
+    height: 600px;
+    overflow:auto;
 }
 
 input{
