@@ -4,3 +4,22 @@
    box-sizing: border-box;
 }
 
+* {
+    background-color: #ECEEF1;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+button {
+    background-color: #0279C5;
+    color: white;
+}
+
+.terms {
+ font-size: 14px
+}
+
+.captcha { 
+    font-size: 9px;
+    font-style: italic;
+    color: gray;
+}
