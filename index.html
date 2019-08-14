@@ -1,86 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Document</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <body>
-        <div class="container">
-            <div class="header">
-                <h3>Already have an Intuit account?</h3>
-                <p>I forgot my User ID or Password</p>
-                <button>
-                    <img src="img/keylock.png" alt="keylock">
-                    <p>Sing In</p>
-                </button>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Already have an Intuit account?</h3>
+            <p>I forgot my User ID or Password</p>
+            <button>
+                <img src="img/keylock.png" alt="keylock">
+                <p>Sing In</p>
+            </button>
+        </div>
+
+        <div class="content">
+            <div class="title">
+                <img src="img/logo.png" alt="Logo">
+                <img src="img/subtitle.png" alt="Mint quickbooks turbotax">
             </div>
 
-            <div class="content">
-                <div class="title">
-                    <img src="img/logo.png" alt="Logo">
-                    <img src="img/subtitle.png" alt="Mint quickbooks turbotax">
-                </div>
+            <div class="section">
+                <div class="form">
+                    <form action="/action" class=" mainForm">
+                        <fieldset class="accountInfo">
+                            <p class="formTitle">Create an Intuit account</p>
+                            <p class="formSubtitle">
+                                One account for everything Intuit, including Mint.<br>
+                                <a link href="">Learn more</a><br>
+                                Already have an account? <a link href="">Sign In</a>
+                            </p>
+                            <label for="email" class="email">
+                                <input type="email" class="email" id="email" required placeholder="Email address">
+                            </label>
 
-                <div class="section">
-                    <div class="form">
-                            <form action="/action" class=" mainForm">
-                                <fieldset class="accountInfo">
-                                <p class="formTitle">Create an Intuit account</p>
-                                <p class="formSubtitle">
-                                    One account for everything Intuit, including Mint.<br>
-                                    <a link href="">Learn more</a><br>
-                                    Already have an account? <a link href="">Sign In</a>
-                                </p>
-                    
-                    
-                                <label for="email" class="email">
-                                    Email address<br>
-                                    <input type="email" class="email" id="email" required>
-                                </label>
-                    
-                                <label for="phone" class="phone">
-                                    Phone (recommended)
-                                    <input type="number" class="phone" id="phone">
-                                </label>
-                    
-                                <label for="password" class="password">
-                                    Password
-                                    <input type="password" class="password" id="password" required>
-                                </label>
-                    
-                                <label for="confirmPassword" class="confirmPassword">
-                                    Confirm Password
-                                    <input type="password" class="confirmPassword" id="confirmPassword">
-                                </label>
-                    
-                                <button class="createAccount">
-                                    <img src="img/keylock.png" alt="keylock">
-                                    Create account
-                                </button>
-                    
-                                <p class="terms">
-                                    By clicking Create account, you agree to our Terms and have read and acknowledge our Privacy Statement.
-                                </p>
-                    
-                                <div class="captcha">
-                                        Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
-                                </div>
-                                </fieldset>
-                    
-                            </form>
-                    </div>
+                            <label for="phone" class="phone">
+                                <input type="number" class="phone" id="phone" placeholder="Phone (recommended)">
+                            </label>
+
+                            <label for="password" class="password">
+                                <input type="password" class="password" id="password" required placeholder="Password">
+                            </label>
+
+                            <label for="confirmPassword" class="confirmPassword">
+                                <input type="password" class="confirmPassword" id="confirmPassword"
+                                    placeholder="Confirm Password">
+                            </label>
+
+                            <button class="createAccount">
+                                <p>Create account</p>
+                            </button>
+
+                            <p class="terms">
+                                By clicking Create account, you agree to our Terms and have read and acknowledge our
+                                Privacy Statement.
+                            </p>
+
+                            <div class="captcha">
+                                Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
+                            </div>
+                        </fieldset>
+
+                    </form>
                 </div>
-            </div>
-            <div class="footer">LegalPrivacySecurity<br>
-                © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
-                registered trademarks of Intuit Inc.<br>
-                Terms and conditions, features, support, pricing, and service options subject to change without notice.<br>
             </div>
         </div>
-    </body>
+        <div class="footer">LegalPrivacySecurity<br>
+            © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+            registered trademarks of Intuit Inc.<br>
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.<br>
+        </div>
+    </div>
+</body>
 
 </html>

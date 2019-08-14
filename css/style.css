@@ -1,62 +1,62 @@
-/* *:before,
-*:after {
-   box-sizing: border-box;
-} */ 
 
-*{
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
-  background-color: #ECEEF1;
-  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+body{
+    color: #000000;
+    font-family: 'Nunito Semibold';
+    text-align: center
 }
-
-/* .header img{
-  
-}
-
-.createAccount img{
-    
-} */
-
-.header {
-    /* text-align: right; */
-    border: solid 1px red;
-}
-
-.signIn{
-    float: right;
-    
-}
-
 .container{
-    width: 800px;
-    align-content: center;
+    /* display: grid;
     margin: 0 auto;
-    flex-direction: column;
-}
-button {
-    background-color: #0279C5;
-    color: white;
+    max-width: 960px; */
 }
 
-.terms {
- font-size: 14px
+.content div{
+   /* padding: 30px;
+   background: #9e9292; */
 }
 
-.captcha { 
-    font-size: 9px;
-    font-style: italic;
-    color: gray;
-}
-.accountInfo{
-    width: 800px;
-    height: 500px;
-}
-
-input{
+.section{
+    height: 100%;
     display: flex;
-    padding-bottom: 1rem;
-    align-items: center
+    justify-content: center;
+    align-items: center;
+}
+
+.section form{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: blue;
+}
+
+.section form input{
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    width: 78%;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.section form input::placeholder{
+    color: red;
+    text-align: center;
+}
+
+.section form button{
+    margin-top: 10px;
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    width: 87%;
+    font-size: 16px;
+    background: #3f3f3f;
+    font-weight: bold;
+    color:#fff;
+    cursor: pointer;
+}
+
+.createAccount{
+    
 }
