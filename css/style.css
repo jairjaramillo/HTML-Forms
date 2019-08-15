@@ -1,7 +1,7 @@
 body {
     color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #ECEEF1;
+    background: #eceef1;
 }
 
 .container.main {
@@ -20,7 +20,6 @@ body {
     display: grid;
     grid-template-columns: 10fr 125px;
     grid-gap: 10px;
-
 }
 
 @media only screen and (max-width: 800px) {
@@ -48,7 +47,6 @@ body {
     width: 100%;
     background: #0178C5;
     cursor: pointer;
-
 }
 
 .layout.header.button {
