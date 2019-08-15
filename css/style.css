@@ -1,23 +1,39 @@
-
-body{
+body {
     color: #000000;
     font-family: 'Nunito Semibold';
     /* text-align: center; */
-    background: rgb(255, 255, 255);
+    background: #ECEEF1;
 }
-.title{
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 380px 1fr;
+    grid-template-rows: repeat(4, minmax(10px, auto));
+    /* 10px 10px 10px 10px */
+    grid-gap: 10px;
+}
+
+.container * {
+    /* background: #2f802f; */
+}
+
+.title {
     text-align: center;
     padding: 10px 20px;
 }
 
-.header p{
+.layout.header {
+    grid-column: 1 / 4;
+}
+
+.layout.header p {
     text-align: right;
     padding: 05px 10px;
     font-size: 14px;
 }
 
-.header button{
-    
+.layout.header button {
+
     border: 0;
     border-radius: 4px;
     height: 48px;
@@ -25,11 +41,23 @@ body{
     font-size: 16px;
     background: #347abb;
     font-weight: bold;
-    color:#fff;
+    color: #fff;
     cursor: pointer;
 }
 
-.section{
+.layout.main {
+    grid-column: 2;
+    grid-row: 2 / 4;
+}
+
+.layout.footer {
+    grid-column: 1 / 4;
+    grid-row: 4;
+    text-align: center;
+    padding: 05px 20px;
+}
+
+.section {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -37,26 +65,27 @@ body{
     padding: 10px;
 }
 
-.section form{
+.section form {
     width: 100%;
     max-width: 500px;
     display: flex;
     flex-direction: column;
     color: #000000;
-    text-align: center; 
+    text-align: center;
 }
 
-.formTitle{
+.formTitle {
     text-align: center;
     font-size: 20px;
 }
-.formSubtitle{
+
+.formSubtitle {
     text-align: center;
     font-size: 15px;
     width: 90%;
 }
 
-.section form input{
+.section form input {
     margin-top: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -65,12 +94,13 @@ body{
     padding: 0 20px;
     font-size: 16px;
 }
-.section form input::placeholder{
+
+.section form input::placeholder {
     color: #3f3f3f;
     text-align: center;
 }
 
-.section form button{
+.section form button {
     margin-top: 10px;
     border: 0;
     border-radius: 4px;
@@ -79,19 +109,13 @@ body{
     font-size: 16px;
     background: #2f802f;
     font-weight: bold;
-    color:#fff;
+    color: #fff;
     cursor: pointer;
 }
 
-.section form .captcha{
+.section form .captcha {
     text-align: center;
     padding: 0 10px;
     font-size: 12px;
-    color:#3f3f3f;
-}
-
-
-.footer{
-    text-align: center;
-    padding: 05px 20px;
+    color: #3f3f3f;
 }
