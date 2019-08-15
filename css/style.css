@@ -164,11 +164,13 @@ footer {
 
 .section form .captchaTwo{
     position: relative;
-  width: 200px;
-  height: 100px;
+    width: 200px;
+    height: 100px;
+    top: 10px;
     background-color: #ECEEF1;
     text-align: center;
-    /* margin: 0 auto; */
+    margin: 0 auto;
+    padding: 10px 10px;
  
    
 }
