@@ -21,7 +21,6 @@ body {
     grid-template-columns: 10fr 125px;
     grid-gap: 10px;
 }
-
 @media only screen and (max-width: 800px) {
     .layout.header {
         display: none;
@@ -53,7 +52,6 @@ body {
     grid-template-columns: 25px 80px;
     justify-items: start;
     font-size: 20px;
-    /* font-weight: bold; */
     color: #fff;
     grid-gap: 10px;
 }
