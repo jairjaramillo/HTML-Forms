@@ -1,7 +1,6 @@
 body {
     color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* text-align: center; */
     background: #ECEEF1;
 }
 
@@ -9,8 +8,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 380px 1fr;
     grid-template-rows: repeat(4, minmax(10px, auto));
-    /* 10px 10px 10px 10px */
-    /* grid-gap: 10px; */
 }
 
 .title {
@@ -67,6 +64,10 @@ body {
     grid-row: 2 / 4;
 }
 
+.layout.main form{
+    background-color: #fff;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 .layout.footer {
     grid-column: 1 / 4;
     grid-row: 4;
@@ -76,19 +77,29 @@ body {
 
 .section {
     height: 100%;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .section form {
     width: 100%;
     max-width: 500px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     color: #000000;
     text-align: center;
+}
+.test{
+    text-align: left;
+    font-weight: 400;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 3%;
+    padding-top: 14px;
+    padding-bottom: 12px;
 }
 
 .formTitle {
@@ -103,12 +114,12 @@ body {
 }
 
 .section form input {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border: 1px solid #ddd;
     border-radius: 4px;
     height: 48px;
-    width: 78%;
-    padding: 0 20px;
+    width: 93%;
+    /* padding: 0 20px; */
     font-size: 16px;
 }
 
