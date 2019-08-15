@@ -68,11 +68,25 @@ body {
     background-color: #fff;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.layout.footer {
+footer {
     grid-column: 1 / 4;
     grid-row: 4;
     text-align: center;
-    padding: 05px 20px;
+    padding: 20px 20px;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 400;
+    color: #505050;
+}
+
+.layout.footer  p{
+    font-weight: normal;
+    color: #505050;
+    margin: 0;
+}
+
+.titleP{
+    padding-bottom: 12px;
 }
 
 .section {
@@ -110,7 +124,7 @@ body {
 .formSubtitle {
     text-align: center;
     font-size: 15px;
-    width: 90%;
+    /* width: 90%; */
 }
 
 .section form input {
@@ -133,7 +147,7 @@ body {
     border: 0;
     border-radius: 4px;
     height: 48px;
-    width: 87%;
+    width: 95%;
     font-size: 16px;
     background: #2f802f;
     font-weight: bold;
@@ -143,7 +157,18 @@ body {
 
 .section form .captcha {
     text-align: center;
-    padding: 0 10px;
+    padding: 26px 10px;
     font-size: 12px;
     color: #3f3f3f;
+}
+
+.section form .captchaTwo{
+    position: relative;
+  width: 200px;
+  height: 100px;
+    background-color: #ECEEF1;
+    text-align: center;
+    /* margin: 0 auto; */
+ 
+   
 }
