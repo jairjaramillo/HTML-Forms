@@ -1,20 +1,16 @@
 body {
     color: #000000;
-    font-family: 'Nunito Semibold';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* text-align: center; */
     background: #ECEEF1;
 }
 
-.container {
+.container.main {
     display: grid;
     grid-template-columns: 1fr 380px 1fr;
     grid-template-rows: repeat(4, minmax(10px, auto));
     /* 10px 10px 10px 10px */
-    grid-gap: 10px;
-}
-
-.container * {
-    /* background: #2f802f; */
+    /* grid-gap: 10px; */
 }
 
 .title {
@@ -24,25 +20,50 @@ body {
 
 .layout.header {
     grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: 10fr 125px;
+    grid-gap: 10px;
+
 }
 
-.layout.header p {
+.layout.header div:nth-child(1) {
+    justify-self: end;
     text-align: right;
-    padding: 05px 10px;
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.layout.header div:nth-child(2) {
+    padding-right: 20px;
 }
 
 .layout.header button {
-
-    border: 0;
     border-radius: 4px;
-    height: 48px;
-    width: 10%;
-    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    height: 100%;
+    width: 100%;
     background: #347abb;
-    font-weight: bold;
-    color: #fff;
     cursor: pointer;
+    
+}
+
+.layout.header.button {
+    grid-template-columns: 25px 80px;
+    justify-items: start;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #fff;
+    grid-gap: 10px;
+}
+
+.layout.header.button div:nth-child(1) {
+    /* padding: 10px 0 0 20px; */
+}
+
+.layout.header.button div:nth-child(2) {
+    font-size: 16px;
+    padding: 6px 0;
 }
 
 .layout.main {
