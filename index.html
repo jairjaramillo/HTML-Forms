@@ -12,14 +12,13 @@
         <div class="container main">
 
             <header class="layout header">
-                <div clas="layout header text">Already have an Intuit account?<br><a href="">I forgot my User ID or
-                        Password</a></div>
+                <div>Already have an Intuit account?<br>
+                    <a href="">I forgot my User ID or Password</a>
+                </div>
                 <div>
-                    <button>
-                        <div class="layout header button">
-                            <div><img src="img/keylock.png" alt="keylock"></div>
-                            <div>Sing In</div>
-                        </div>
+                    <button id="header-button-text">
+                        <img id="header-button" src="img/keylock.png" alt="keylock">
+                        Sing In
                     </button>
                 </div>
 
@@ -39,30 +38,37 @@
                                     <p class="formTitle">Create an Intuit account</p>
                                     <p class="formSubtitle">
                                         One account for everything Intuit, including Mint.<br>
-                                        <a link href="">Learn more</a>
+                                        <a href="">Learn more</a>
                                     </p>
 
-                                    <label for="email" class="email">
-                                        <div class="test">Email address</div>
-                                        <input type="email" class="email" id="email" required>
-                                    </label>
+                                    <div class="test">
+                                        <label for="email" class="email">
 
-                                    <label for="phone" class="phone">
-                                        <div class="test">Phone (recommended)</div>
-                                        <input type="text" class="phone" id="phone">
+                                            Email address
+
+                                            <input type="email" class="email" id="email" required>
+                                        </label>
+                                    </div>
+                                    <div class="test">
+                                        <label for="phone" class="phone">
+                                            Phone (recommended)
+                                            <input type="text" class="phone" id="phone">
+                                            
+                                        </label>
                                         <div id="phone-text">Standard call, messaging or data rates may apply.</div>
-                                    </label>
-
-                                    <label for="password" class="password">
-                                        <div class="test">Password</div>
-                                        <input type="password" class="password" id="password" required>
-                                    </label>
-
-                                    <label for="confirmPassword" class="confirmPassword">
-                                        <div class="test">Confirm Password</div>
-                                        <input type="password" class="confirmPassword" id="confirmPassword">
-                                    </label>
-
+                                    </div>
+                                    <div class="test">
+                                        <label for="password" class="password">
+                                            Password
+                                            <input type="password" class="password" id="password" required>
+                                        </label>
+                                    </div>
+                                    <div class="test">
+                                        <label for="confirmPassword" class="confirmPassword">
+                                            Confirm Password
+                                            <input type="password" class="confirmPassword" id="confirmPassword">
+                                        </label>
+                                    </div>
                                     <button class="createAccount">
                                         <img src="img/keylock.png" alt="keylock">
                                         Create account
