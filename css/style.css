@@ -45,7 +45,7 @@ body {
     width: 100%;
     background: #347abb;
     cursor: pointer;
-    
+
 }
 
 .layout.header.button {
@@ -55,10 +55,6 @@ body {
     /* font-weight: bold; */
     color: #fff;
     grid-gap: 10px;
-}
-
-.layout.header.button div:nth-child(1) {
-    /* padding: 10px 0 0 20px; */
 }
 
 .layout.header.button div:nth-child(2) {
