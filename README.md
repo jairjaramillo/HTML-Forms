@@ -3,9 +3,13 @@ In this project, you’ll get a chance to rebuild the form used by Mint.com for 
 
 Assignment link: https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms
 
+Final page: https://jairjaramillo.github.io/HTML-Forms/
+
 Original page: https://accounts.intuit.com/signup.html
+
 
 Contributors:
 
 Diego Gomes: https://github.com/digomes87
+
 Jair Jaramillo: https://github.com/jairjaramillo
