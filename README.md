@@ -4,7 +4,7 @@ This is the 2nd project of the Main HTML/CSS curriculum at Microverse.
 
 Assignment link: https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms
 
-Final page: https://jairjaramillo.github.io/Microverse-102-HTML-Forms/
+Final page: https://jairjy.github.io/Microverse-102-HTML-Forms/
 
 Original page: https://accounts.intuit.com/signup.html
 
@@ -13,4 +13,4 @@ Contributors:
 
 Diego Gomes: https://github.com/digomes87
 
-Jair Jaramillo: https://github.com/jairjaramillo
+Jair Jaramillo: https://github.com/jairjy
